@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app {
+    height: 75vh;
+    
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    overflow: hidden;
+}
+
+.app > div {
+    border: 1px solid black;
+    overflow: hidden;
+
+    font-size: 5px;
+}
+
